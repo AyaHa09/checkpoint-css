@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  button{
+    background-color: lightskyblue;
+    
+  }
+  .first{
+    color: saddlebrown;
+  }
+  #second{
+    margin-left: 20%;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }

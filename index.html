@@ -4,19 +4,66 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="pigeon.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <nav>
+        <ul>
+        
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#video">Music</a></li>
+          </ul>
+        </nav> 
 </head>
 <body>
+    <a name="TopOfThePage"> </a>
     <header>
         <h1>My Portfolio</h1>
-        <h2>The name of this person is Aya Hachana</h2>
+        <h2 class="first">The name of this person is Aya Hachana</h2>
+        <dl>
+        <dt>Work done on :</dt>
+        <dd>20/05/23</dd>
+    </dl>
     </header>
 <main>
-    <p>This is me</p>
-    <img src="ayahachana.jpg" alt="nature" height="400" width="400"> 
+    <div>
+    <p class="coloration-text">This is me</p>
+    <img src="ayahachana.jpg" alt="nature" height="400" width="400" id="second"> 
+    <br><br><br><br>
+    <section id="video">
     <p>My favorite song music at the moment is</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GBokJEvFPx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>What's something I thought about late night </p>
-    <p>Do we say "farfattou" or "farfattou"</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GBokJEvFPx4" id="second" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br><br><br><br><br>
+    <select>
+        <option value="raykom">behya</option>
+        <option value="raykom">khayba</option>
+    </select>
+</section>
+
+</div>
+<div>
+    <article id="about">
+        <dl>
+    <dt>What's something I thought about last night </dt>
+    <dd>Do we say "farfattou" or "farfattou"</dd>
+</dl>
+<br><br>
+    <table >
+        <tr>
+          <th>Best Dish</th>
+          <th>Something I would never eat</th>
+        </tr>
+        <tr>
+          <td>Barkoukch</td>
+          <td>Mloukhiya</td>
+        </tr>
+      </table>
+    </article>
+    </div>
+    <br><br><br><br>
+    
+        <!-- I know this section doesn't make sense but I had to try some tags-->
+        <div>
+        <form>
     <p>If you're close enough to me, enter my login infos and you will be directed to my favorite website</p>
     <label>Personal email</label>
     <input type="email" name="email">
@@ -24,12 +71,22 @@
     <input type="password" name="password">
     <label>My birthdate</label>
     <input type="date" name="date of birth">
-    <p>if you click and you find yourself in another website than you have successfully passed our closeness test</p>
+    <p>if you click this button and you find yourself in another website than you have successfully passed our closeness test</p>
+    <button type="button">submit</button><br><br><br><br>
+    <textarea name="message" cols="30" rows="5">
+        Leave a comment
+    </textarea><br><br><br><br>
     <a href="https://www.openai.com">OpenAI</a>
+</form>
+</div>
 </main>
 
     <footer>
+        <section id="contact">
 <p>Enough for now, see you in my next practice</p>
+<p>Contact me at aya.hachana@medtech.tn</p>
+<a href="#TopOfThePage"> Let's go up Top </a>
     </footer>
+</section>
 </body>
 </html>
