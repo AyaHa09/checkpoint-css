@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+#resume{
+    margin-left: 22%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(223, 255, 237);
+}
+p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    background-color: rgb(174, 122, 223);
+    padding: 5%;
+    border-radius: 25px;
+
+}
+button {
+    background-color:rgb(174, 122, 223) ;
+    margin-top: 3%;
+    margin-left: 80% ;
+    padding: 1%;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: azure;
+}
